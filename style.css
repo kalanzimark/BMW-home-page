@@ -44,7 +44,7 @@ img {
 /* open overlay */
 .open_nav_links-mobile {
     visibility: visible;
-    z-index: 2;
+    z-index: 4;
 }
 .button_section .close_btn {
     font-size: 1.5rem;
