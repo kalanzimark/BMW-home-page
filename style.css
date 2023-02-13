@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Space Mono", monospace;
     list-style-type: none;
 }
 body {
     height: 100vh;
+
     scroll-behavior: smooth;
 }
 
@@ -524,6 +526,7 @@ img {
 
 .languages ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 10px;
